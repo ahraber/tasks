@@ -1,0 +1,2 @@
+# add this alias to .bashrc/.zshrc
+alias 'vt'='vim ~/tasks/tasks'
