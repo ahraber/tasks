@@ -1,12 +1,13 @@
 #!/bin/bash
 
-DATE=`date +%Y-%m-%d-%H`
-PREV=`ls -Art ~/tasks/old/|grep bak| tail -n 1`
+DATE=`date +%Y-%m-%d`
 
-diff ~/tasks/tasks ~/tasks/old/`echo $PREV`
-
-if [ $? -eq 0 ]; then
-    exit 0 #noop
+pushd ~/tasks/old
+if ls *k >/dev/null 2>&1; then
+    tar -cvf tasks-`echo $DATE`.tar.gz tasks*.bak
+    rm -rf *k
 else
-    cp ~/tasks/tasks ~/tasks/old/tasks-`echo $DATE`.bak
+    exit 0
 fi
+popd
+exit 0
