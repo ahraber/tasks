@@ -1,0 +1,7 @@
+# put this in cron
+
+# backup tasks
+0 * * * * /bin/bash ~/tasks/scripts/tasks-backup.sh
+55 23 * * * /bin/bash ~/tasks/scripts/tasks-tar-d.sh
+0 0 1 * * /bin/bash ~/tasks/scripts/tasks-tar-m.sh
+0 0 1 1 * /bin/bash ~/tasks/scripts/tasks-tar-y.sh
