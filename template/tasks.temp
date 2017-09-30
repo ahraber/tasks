@@ -1,5 +1,8 @@
 # ---
-# copy this file as `tasks` within the top dir of this repo (~/tasks/tasks), and begin taking notes. Use vim.
+# copy this file as `tasks` within the top dir of this repo:
+#     $ cp ~/tasks/template/tasks.temp ~/tasks/tasks
+# begin taking notes.
+# use vim.
 # ----
 
 #---
