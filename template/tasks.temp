@@ -1,3 +1,45 @@
 # ---
-# copy this file to `tasks` within the top dir of this repo (~/tasks/tasks), and begin taking notes
+# copy this file as `tasks` within the top dir of this repo (~/tasks/tasks), and begin taking notes. Use vim.
 # ----
+
+#---
+#
+# Example:
+#
+#---
+
+# 9/29
+completed:
+- updated hhdb schema
+- fixed hudw build failure
+- dinner w/ fam
+
+# 9/30
+completed:
+- worked out (rings)
+- upgraded to latest kernel
+
+
+
+
+# To Do
+- shop for a new monitor (144hz ultra-wide)
+- haircut
+- PCT
+
+
+
+
+# 9/31
+- oil change
+- monthly reflection
+
+# 10/3
+- grocery shopping
+- star gazing (if it's clear)
+
+# 12/31
+- go to bed early
+
+# 1/1
+- sleep in
