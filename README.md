@@ -1,5 +1,5 @@
 # tasks
-self archiving tasks list
+minimalist self archiving tasks list
 
 # begin
 1. see [`template/tasks.temp`](https://github.com/ahraber/tasks/blob/master/template/tasks.temp)
