@@ -1,5 +1,5 @@
 # tasks
-local tasks archiving
+self archiving tasks list
 
 # notes
 your hourly backups will be deleted after being tar'ed during the daily run; daily backups will be deleted after being tar'ed during the monthly run, and monthly backups will be deleted after being tar'ed during the yearly run.
