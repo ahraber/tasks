@@ -1,2 +1,3 @@
-# add this alias to .bashrc/.zshrc
-alias 'vt'='vim ~/tasks/tasks'
+# add these alias to .bashrc/.zshrc
+alias vt='vim ~/tasks/tasks'
+alias reboot='/bin/bash ~/tasks/scripts/tasks-backup.sh && sudo shutdown -r now'
